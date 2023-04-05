@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+@keyframes sdvig {
+        0% {
+          padding-left:0;
+        }
+        100% {
+               padding-left:400px; 
+        }
+}
+
+@keyframes logo {
+        100% {transform: rotate(720deg);}
+}
+
+
+
+.line {border: inherit;
+        border-radius: 60%;
+        width: 100%;
+        height: 10px;
+        background: linear-gradient(to top, orange, gold); }         
+
+.header {display:grid;
+        grid-template-columns: 1fr 200px 1fr;
+        grid-template-rows: 1fr;
+        place-items: center center;
+        height: 200px;
+        width:calc(100%-40px);}   
+        
+.textheadbox1 {display:flex;
+        justify-content: center;
+        gap:20px;}
+
+.main1 {display:flex;
+        flex-direction: column;}
+
+.link1 {font-family: comfortaa;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        color:orange;}
+
+.link1:hover {border-bottom: solid 1px;}        
+
+.logo {display: flex;}
+
+.logogrape {width: 185px;
+        height: 185px;
+        position: relative;} 
+
+.logogrape:hover {animation-name: logo;
+        animation-duration: 1.3s;}          
+    
+.textlogo1 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: gold;
+        font-size: x-large;
+        position: absolute;
+        transform: translate(18px, 10px);}
+            
+.textlogo2 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: gold;
+        font-size: x-large;
+        position: absolute;
+        transform: translate(38px, 145px);}             
+
+.texthelp {font-family: comfortaa;
+        font-size: 50px;
+        font-weight: 100;
+        text-align: center;}  
+
+.textshablon {font-family: comfortaa;
+        text-align: center;
+        font-weight: 500;
+        font-size: 30px;
+        margin-bottom: 0;}
+
+.form1 {display: flex;
+        justify-content: center;
+        margin-top:30px;
+        margin-bottom: 30px;}        
+
+.number {border: inherit;
+        height: 38px;
+        width: 200px;
+        border-radius: 40px;
+        text-align: center;
+        box-shadow: 0 0 2px 2px orange;
+        margin-right: 5px;
+        font-family:comfortaa;}  
+        
+.button {width: 110px;
+        height: 42px;
+        border: inherit;
+        background: white;
+        border-radius: 40px;
+        box-shadow: 0 0 2px 2px orange;
+        font-family:comfortaa;
+        transition: background-color 0.5s;}
+
+.button:hover {background: orange;}        
+
+.zagolovblock {font-family:comfortaa;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 0;} 
+
+.zagolovblock2 {font-family:comfortaa;
+        text-align: center;} 
+        
+.zagolov {font-family: comfortaa;
+        font-size: 20px;
+        font-weight: 600;}
+        
+.block1 {display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap:30px;
+        margin: 0 20px 30px 20px;
+        font-family:comfortaa;} 
+
+.blocklogic {display: flex;
+        gap:20px;
+        align-self: center;}
+
+.textzagolov {text-align: justify;}
+        
+.blocklogic:hover {background: linear-gradient(to left, orange, gold);
+                opacity:0.9;}        
+           
+.iconlogic{width: 60px;
+        height: 60px;
+        margin-top: 20px;}  
+
+.block2 {display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 0 20px 30px 20px;
+        gap: 30px;}
+
+.vid1 {text-align: center;}
+
+.vid1:hover {transform: scale(1.1);
+        background: linear-gradient(to left, orange, gold);}
+
+.imgback:hover {transform: scale(-1,1);
+        }
+
+.iconvid {width: 70px;
+        height: 70px;}       
+        
+.napravl {font-family: comfortaa;
+        font-size: 20px;
+        margin: 30px 20px 30px 20px;}
+
+.tablnapr {display:flex;
+        flex-direction: column;
+        margin: 30px 0 30px 0;} 
+        
+.tabl {margin: 10px 50px 20px 40px;
+       box-shadow: coral;}
+       
+.tabl:hover {animation-name: sdvig;
+        transform:scale(1.05);
+        animation-duration: 3s;
+        box-shadow: 0 0 2px 2px orange;} 
+
+.clientauto {display: flex;
+        justify-content: space-around;
+        gap:30px;
+        margin: 30px 20px 30px 20px;}
+       
+.otzyvcl {display: flex;
+        flex-direction: column;  
+        gap: 10px; } 
+
+.blockotzyv {border: inherit 1px;
+        margin-top: 20px;
+        font-family: comfortaa;}  
+
+.blockotzyv:hover {box-shadow: 0 0 4px 4px orange;}   
+
+.photoman{width: 70px;
+        height: 70px;
+        border-radius: 80%;}        
+
+.auto {margin-bottom: 30px;}
+
+.photoauto {display: grid;
+        grid-template-columns: 250px 250px;
+        grid-template-rows: 150px 150px;
+        gap:20px;
+        opacity: 0.8;
+        margin-top: 20px;}        
+
+.autos {width: 250px;
+        height: 150px;}
+
+.photologo {display:flex;
+        justify-content: center;
+        gap:5px;
+        margin: 30px 0 30px 0;}
+
+.logos {width: 250px;
+        height: 150px;}         
+
+.aboutform {display:flex;
+        flex-direction: row;
+        gap: 20px;
+        font-family: comfortaa;
+        margin: 30px 20px 30px 20px;
+        justify-content: space-around;} 
+
+.about {width: 500px;
+        text-align: justify;}
+
+.abouttext {line-height: 35px;}
+
+.form2 {border: inherit;
+        width: 470px;
+        height: 250px;
+        border-radius: 20px;
+        font-family:comfortaa;}
+
+.typeform {border: inherit;
+        margin:10px 0px 10px 20px;
+        width: 200px;
+        height: 30px;
+        border-radius: 30px;
+        text-align: center;
+        box-shadow: 0 0 2px 2px orange;
+        font-family:comfortaa;} 
+        
+.comment {border: inherit;
+        margin:10px 10px 10px 20px;
+        width: 430px;
+        height: 40px;
+        border-radius: 30px;
+        text-align: center;
+        box-shadow: 0 0 2px 2px orange;
+        font-family:comfortaa;}
+
+.button2 {border: inherit;
+        background: white;
+        margin:10px 10px 10px 20px;
+        width: 435px;
+        height: 40px;
+        border-radius: 30px;
+        text-align: center;
+        box-shadow: 0 0 2px 2px orange;
+        transition: background-color 0.5s;
+        font-family:comfortaa;} 
+        
+.button2:hover {background: orange;}         
+
+.footer {display:grid;
+        height:150px;
+        font-family: comfortaa;}
+
+.link {margin: 0 auto;
+        padding-top:30px;} 
+
+.link2 {text-decoration: none;
+        color:orange;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;}
+
+.link2:hover {border-bottom: solid 1px;}
+
+.copy {margin: 0 auto;
+        padding-top:20px;
+        font-size: 15px;}
+
+ 
+@media all and (max-width: 1060px) {
+        .clientauto {display: flex;
+                flex-direction: column;
+                align-items: center;}
+        }
+
+@media all and (max-width: 1000px) {
+        .textheadbox1 {display: flex;
+                        flex-direction: column;}
+        
+        .link {display:grid;
+                grid-template-columns: 1fr 1fr;
+                gap:10px;}
+        
+        .aboutform  {display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                align-self: center;}
+
+        .vid1 {width: 320px;}
+
+        .logos {width: 250px;
+                height: 120px;} 
+                
+        @keyframes sdvig {
+                        0% {
+                          padding-left:0;
+                        }
+                        100% {
+                               padding-left:300px; 
+                        }       
+                }  
+}
+
+@media all and (max-width: 900px) {
+        .textheadbox1 {
+                display: flex;
+                flex-direction: column;}
+
+        .otzyvcl {text-align: center;}         
+
+        .photologo {display: flex;
+                flex-direction: column;
+                align-items: center;
+                align-self: center;
+                gap:0;}
+                
+        .logos {width: 350px;
+                height: 250px;} 
+}
+
+@media all and (max-width: 800px) {
+        
+        .block2 {display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;}
+
+        @keyframes sdvig {
+                0% {
+                  padding-left:0;
+                }
+                100% {
+                       padding-left:225px; 
+                }       
+        }  
+
+}
+
+@media all and (max-width: 650px) {
+        .block1 {display: flex;
+        flex-direction: column;}
+
+        @keyframes sdvig {
+                0% {
+                  padding-left:0;
+                }
+                100% {
+                       padding-left:5px; 
+                }       
+        }  
+}
+
+@media all and (max-width: 560px) {
+
+        .link1 {font-size: 15px;}
+
+        .photoauto {display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;}
+
+        .napravl {margin:0;}
+
+        .aboutform{margin:0;}
+
+        .abouttext {text-align: justify;
+        margin:0 30px 0 30px;}
+}
